@@ -11,5 +11,6 @@
   <a href="/main/about">about</a>
   <a href="/main/lesson_menu">lessons</a>
   <a href="/main/access">access</a>
+  <a href="/login">login</a>
 </body>
 </html>
