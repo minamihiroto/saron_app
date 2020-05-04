@@ -3,23 +3,31 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class MainController extends Controller
 {
     public function index(){
-        return view('main.index');
+        $user = Auth::user();
+        $param = ['user'=>$user];
+        return view('main.index',$param);
     }
 
     public function about(){
-        return view('main.about');
+        $user = Auth::user();
+        $param = ['user'=>$user];
+        return view('main.about',$param);
     }
 
     public function lesson_menu(){
-        return view('main.lesson_menu');
+        $user = Auth::user();
+        $param = ['user'=>$user];
+        return view('main.lesson_menu',$param);
     }
 
     public function access(){
-        return view('main.access');
+        $user = Auth::user();
+        $param = ['user'=>$user];
+        return view('main.access',$param);
     }
-
 }

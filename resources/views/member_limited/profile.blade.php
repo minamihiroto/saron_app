@@ -4,18 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>LESSONS</title>
+  <title>PROFILE</title>
 </head>
 <body>
   <a href="/main">index</a>
-  <a href="/main/about">about</a>
-  <a href="/main/lesson_menu">lessons</a>
-  <a href="/main/access">access</a>
-  @if(Auth::check())
   <a href="/member_limited">videos</a>
-  <a href="/member_limited/profile">{{$user->name}}</a>
-  @else
-  <a href="/login">login</a>
-  @endif
+  <a href="/member_limited/profile">profile</a>
+  <a href="/home">logout</a>
 </body>
 </html>
