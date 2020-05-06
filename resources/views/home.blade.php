@@ -15,7 +15,6 @@
                     @endif
 
                     You are logged in!
-                    <a href="/member_limited">videos</a>
                 </div>
             </div>
         </div>
