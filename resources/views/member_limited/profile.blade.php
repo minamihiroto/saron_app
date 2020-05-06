@@ -7,6 +7,7 @@
   <title>PROFILE</title>
 </head>
 <body>
+  <h1>PROFILE</h1>
   <a href="/main">index</a>
   <a href="/member_limited">videos</a>
   <a href="/member_limited/profile">profile</a>
