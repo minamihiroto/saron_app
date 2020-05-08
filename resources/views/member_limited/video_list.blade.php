@@ -11,5 +11,6 @@
   <a href="/main">index</a>
   <a href="/member_limited">videos</a>
   <a href="/member_limited/profile">profile</a>
+  <a href="/admin/share">share</a>
 </body>
 </html>

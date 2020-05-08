@@ -15,6 +15,7 @@
   @if(Auth::check())
   <a href="/member_limited">videos</a>
   <a href="/member_limited/profile">{{$user->name}}</a>
+  <a href="/admin/share">share</a>
   @else
   <a href="/login">login</a>
   @endif

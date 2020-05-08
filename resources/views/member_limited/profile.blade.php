@@ -11,6 +11,7 @@
   <a href="/main">index</a>
   <a href="/member_limited">videos</a>
   <a href="/member_limited/profile">profile</a>
+  <a href="/admin/share">share</a>
   <form method="POST" action="/logout">
     {{ csrf_field() }}
     <a href="javascript:void(0)" onclick="this.parentNode.submit()">logout</a>
