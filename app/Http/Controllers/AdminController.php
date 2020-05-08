@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class AdminController extends Controller
 {
-    public function shar(){
-        return view('admin.shar');
+    public function share(){
+        return view('admin.share');
     }
 }

@@ -31,5 +31,5 @@ Route::get('member_limited','MemberLimitedController@video_list')
 Route::get('member_limited/profile','MemberLimitedController@profile')
     ->middleware('auth');
 
-Route::get('admin/shar','AdminController@shar')
+Route::get('admin/share','AdminController@share')
     ->middleware('auth');
