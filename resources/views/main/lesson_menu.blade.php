@@ -10,7 +10,6 @@
   <h1>LESSONS</h1>
   <a href="/main">index</a>
   <a href="/main/about">about</a>
-  <a href="/main/lesson_menu">lessons</a>
   <a href="/main/access">access</a>
   @if(Auth::check())
   <a href="/member_limited">videos</a>

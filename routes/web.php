@@ -33,3 +33,8 @@ Route::get('member_limited/profile','MemberLimitedController@profile')
 
 Route::get('admin/share','AdminController@share')
     ->middleware('auth');
+Route::post('admin/share','AdminController@store')
+    ->middleware('auth');
+Route::delete('admin/destroy/{post_id}','AdminController@destroy')
+    ->middleware('auth');
+    

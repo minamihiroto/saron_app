@@ -11,7 +11,6 @@
   <a href="/main">index</a>
   <a href="/main/about">about</a>
   <a href="/main/lesson_menu">lessons</a>
-  <a href="/main/access">access</a>
   @if(Auth::check())
   <a href="/member_limited">videos</a>
   <a href="/member_limited/profile">{{$user->name}}</a>
