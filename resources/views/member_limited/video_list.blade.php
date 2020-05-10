@@ -7,10 +7,12 @@
   <title>VIDEOS</title>
 </head>
 <body>
+<header>
   <h1>VIDEOS</h1>
   <a href="/">index</a>
   <a href="/member_limited/profile">profile</a>
   <a href="/admin/share">share</a>
+</header>
 
   @if(count($items) > 0)
         @foreach($items as $item)
