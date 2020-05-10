@@ -8,7 +8,7 @@
 </head>
 <body>
   <h1>投稿</h1>
-  <a href="/main">index</a>
+  <a href="/">index</a>
   <a href="/member_limited">videos</a>
   <a href="/member_limited/profile">profile</a>
 

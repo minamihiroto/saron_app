@@ -8,7 +8,7 @@
 </head>
 <body>
   <h1>LESSONS</h1>
-  <a href="/main">index</a>
+  <a href="/">index</a>
   <a href="/main/about">about</a>
   <a href="/main/access">access</a>
   @if(Auth::check())

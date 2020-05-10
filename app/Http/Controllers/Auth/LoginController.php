@@ -26,7 +26,7 @@ class LoginController extends Controller
      protected function logout()
      {
         Auth::logout();
-         return redirect('main');
+         return redirect('/');
      }
 
     /**
