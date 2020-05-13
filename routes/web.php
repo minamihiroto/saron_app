@@ -19,6 +19,7 @@ Route::get('/','MainController@index');
 Route::get('main/about','MainController@about');
 Route::get('main/lesson_menu','MainController@lesson_menu');
 Route::get('main/access','MainController@access');
+Route::get('main/news','MainController@news');
 
 Route::get('member_limited','MemberLimitedController@video_list')
     ->middleware('auth');
@@ -31,4 +32,10 @@ Route::post('admin/share','AdminController@store')
     ->middleware('auth');
 Route::delete('admin/destroy/{post_id}','AdminController@destroy')
     ->middleware('auth');
-    
+
+Route::get('admin/news_share','AdminController@news_share')
+    ->middleware('auth');
+Route::post('admin/news_share','AdminController@announcement')
+    ->middleware('auth');
+Route::delete('admin/news_destroy/{post_id}','AdminController@news_destroy')
+    ->middleware('auth');
