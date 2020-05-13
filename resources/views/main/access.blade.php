@@ -3,7 +3,8 @@
 @section('content')
   <section class="reservation">
     <h1>reservation</h1>
-    reservation-table
+    {{-- Airリザーブ --}}
+    {{-- <iframe type="text/html" frameborder="0" width="80%" height="1250px" src="//airrsv.net/andocoffee/calendar/embed/" ></iframe> --}}
   </section>
   <section class="contact">
     <h1>contact</h1>
