@@ -3,7 +3,9 @@
 <header>
   <a href="/">index</a>
   <a href="/member_limited/profile">{{$user->name}}</a>
+  <a href="/member_limited">videos</a>
   <a href="/admin/share">share</a>
+  <a href="/admin/news_share">announce</a>
 </header>
 
   @if(count($items) > 0)

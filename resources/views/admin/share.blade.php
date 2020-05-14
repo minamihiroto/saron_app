@@ -1,11 +1,12 @@
 <x-head />
 <body>
   <header>
-    <h1>投稿</h1>
     <a href="/">index</a>
     <a href="/member_limited">videos</a>
-    <a href="/member_limited/profile">profile</a>
+    <a href="/admin/share">share</a>
+    <a href="/admin/news_share">announce</a>
   </header>
+  
     <form action="/admin/share" method="post" enctype="multipart/form-data">
       {{ csrf_field() }}
       <input type="hidden" name="id" value="1">
