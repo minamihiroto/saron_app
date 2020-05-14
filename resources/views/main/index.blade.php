@@ -11,7 +11,7 @@
       @if(count($items) > 0)
       @foreach($items as $item)
           <div class="alert alert-primary" role="alert">
-              <a href="/main/news">{{ $item->news_title }}</a>
+          <a href="/main/news/{{$item->id}}">{{ $item->news_title }}</a>
           </div>
       @endforeach
     @else

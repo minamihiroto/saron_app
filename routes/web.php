@@ -19,7 +19,7 @@ Route::get('/','MainController@index');
 Route::get('main/about','MainController@about');
 Route::get('main/lesson_menu','MainController@lesson_menu');
 Route::get('main/access','MainController@access');
-Route::get('main/news','MainController@news');
+Route::get('main/news/{id}','MainController@news');
 
 Route::get('member_limited','MemberLimitedController@video_list')
     ->middleware('auth');

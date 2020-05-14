@@ -33,10 +33,10 @@ class MainController extends Controller
         return view('main.access',$param);
     }
 
-    public function news(){
+    public function news($id){
         $user = Auth::user();
         $param = ['user'=>$user];
-        $items = News::all();
-        return view('main.news',['items'=>$items],$param);
+        $item = News::find($id);
+        return view('main.news',['item'=>$item],$param);
     }
 }
