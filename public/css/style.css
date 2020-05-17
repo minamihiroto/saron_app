@@ -9,24 +9,39 @@ ul{
 
 /* top */
 
-.top h1{
+.sub-title{
   font-size: 64px;
   font-family: sans-serif;
   margin-top: 230px;
   margin-left: 110px;
 }
   
-.top h2{
+.sub-text{
   font-size: 15px;
   margin-left: 324px;
   margin-top: 15px;
 }
   
-.top-image{
+.top-img{
   display: inline-block;
   height: 900px;
   width: 1440px;
   margin-top: 400px; 
+  background:no-repeat url(/images/top-image.webp);
+  background-size: cover;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.top-img h1{
+  font-size: 200px;
+  margin-top: 250px;
+}
+
+.top-img p{
+  font-size: 40px;
+  letter-spacing: 15px;
+  font-weight: bold;
 }
 
 /* news */
@@ -119,8 +134,9 @@ ul{
   height: 500px;
   width: 900px;
   margin-left: 50px;
-  margin-top: 300px;
+  margin-top: 200px;
   position: relative;
+  object-fit: cover;
  }
 
 .introduce-shop{
@@ -131,7 +147,7 @@ ul{
   background-color: darkgreen;
   width: 360px;
   position: absolute;
-  top: 750px;
+  top: 650px;
   color: #ffffff;
   padding:10px 70px 10px 10px;
   font-size: 50px;

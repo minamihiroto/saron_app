@@ -4,9 +4,12 @@
 @section('content')
 
   <section class="top">
-    <h1>May I help you???</h1>
-    <h2>Your little joy is here.....↓↓↓</h2>
-    <img class="top-image" src="/images/top-image.webp">
+    <h1 class="sub-title">May I help you???</h1>
+    <h2 class="sub-text">Your little joy is here.....↓↓↓</h2>
+    <div class="top-img">
+      <h1>&</h1>
+      <p>-coffee-</p>
+    </div>
   </section>
 
   <section class="news">
@@ -64,34 +67,5 @@
     <img src="images/topic-4.jpg">
     <div class="title-four"><a href="#">Map</a></div>
   </section>
-
-
-
-
-
-
-{{-- 
-  <footer>
-    <h1>&</h1>
-    <img src="images/ttokubetu.webp">
-    <div class="footer-list">
-        <ul>
-           <li><a href="#">about<a></li>
-            <li><a href="#">menu</a></li>
-            <li><a href="#">access</a></li> 
-        </ul>
-    </div>
-    <div class="adress">
-    <h2>adress</h2>
-    <p>京都府京都市復興寺３−３ー１</p>
-    </div>
-    <div class="call">
-      <h2>TEL</h2>
-      <p>06-1515-1717</p>  
-    </div>
-   </footer> --}}
-  
-
-
 
 @endsection  
