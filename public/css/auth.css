@@ -1,0 +1,39 @@
+.navbar-nav{
+  list-style: none;
+  text-align: right;
+  width: 1000px;
+}
+
+a{
+  color: black;
+}
+
+a:hover{
+  opacity: 50%;
+}
+
+.py-4{
+  text-align: center;
+}
+
+.card-header{
+  font-size: 64px;
+  margin: 0px auto 40px;
+}
+
+.row{
+  margin: 20px;
+}
+
+.col-md-6{
+  display: inline;
+  margin-left: 50px;
+}
+
+.btn{
+  margin-bottom: 40px;
+}
+
+.forgot{
+  display: block;
+}
