@@ -1,38 +1,97 @@
 @extends('layouts.main')
+@section('css','style.css')
 @section('title','Top')
 @section('content')
-  <section class="foreword">
-    <img class="topimage" src="images/sample5.jpg" alt="top-image" width="1000px">
-    top-texttop-texttop-texttop-texttop-texttop-texttop-texttop-texttop-texttop-texttop-texttop-texttop-text
+
+  <section class="top">
+    <h1>May I help you???</h1>
+    <h2>Your little joy is here.....↓↓↓</h2>
+    <img class="top-image" src="/images/top-image.webp">
   </section>
-  <section class="explanation">
-    <div class="news">
+
+  <section class="news">
       <h1>news</h1>
-      @if(count($items) > 0)
+    @if(count($items) > 0)
       @foreach($items as $item)
-          <div class="alert alert-primary" role="alert">
-          <a href="/main/news/{{$item->id}}">{{ $item->news_title }}</a>
+          <div class="announce" role="alert">
+            <a href="/main/news/{{$item->id}}">{{ $item->news_title }}</a>
           </div>
       @endforeach
     @else
       <div>投稿記事がありません</div>
     @endif
+  </section>
+ 
+  <section class = "introduce">
+    <div class="introduce-beans">
+      <img src="images/beans.webp" class="introduce-image">
+      <h1 class="introduce-title">Beans</h1>   
+      <p class ="introduce-text"> 当店の豆は香り高く、程よくえぐみのあるボリビア産のリベリカ豆を使用しています。リベリカ豆は世界幅広く栽培されている品種ですが、ボリビア産のものはより濃厚で香り高いものに仕上がっています。というのもボリビアは全般的に高度が高く気圧が低い国であるため、豆により空気が浸透し要素が豆全体に均等に広がるためです。 マスターが数多くの豆の中から選んだ豆の一杯を堪能ください。</p>
     </div>
-    <div class="sub">
-      <img class="subimage" src="images/sample2.jpg" alt="sub-image" width="300px">
-      sub-textsub-textsub-textsub-textsub-textsub-textsub-textsub-textsub-textsub-textsub-textsub-textsub-textsub-text
-      <img class="subimage" src="images/sample2.jpg" alt="sub-image" width="300px">
-      sub-textsub-textsub-textsub-textsub-textsub-textsub-textsub-textsub-textsub-textsub-textsub-textsub-textsub-text
-      <img class="subimage" src="images/sample2.jpg" alt="sub-image" width="300px">
-      sub-textsub-textsub-textsub-textsub-textsub-textsub-textsub-textsub-textsub-textsub-textsub-textsub-textsub-text
-      <h1>title</h1>
-      messagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessagemessage
+    <div class="introduce-roast">
+      <img src="images/roast.webp" class="introduce-image">
+      <h1 class="introduce-title">Roast</h1>
+      <p class ="introduce-text">焙煎深度はきめ細やかな極深煎り。イタリアンローストと呼ばれるこの煎り方は,調整が難しく、焦げてしまうことで定評ですが、当店自慢のスクリューピラスという独自の豆の保存方法によって、苦すぎず、水気のない濃厚
+      なものに仕上げました。</p>
+    </div>
+    <div class="introduce-shop">
+      <img src="images/shop.webp" class="introduce-image">
+      <h1 class="introduce-title">Shop</h1>
+      <p class ="introduce-text">当店では生豆のバイヤーが季節ごとに旬のコーヒーを吟味し、最も美味しいとされるコーヒー豆をご自宅でも楽しんで頂けるように、豆の店頭販売も行っています。加えて、４月より深煎り専用のコーヒー豆、リベリカ種の豆の販売も開始しましたので、そちらも併せてお楽しみください。その他、当店オリジナルタンブラーなどの限定商品も多数取り扱っています。</p>
     </div>
   </section>
-  <section class="product">
-    <a href="/"><img class="product" src="images/sample1.jpg" alt="product-image" width="500px"></a>
-    <a href="/"><img class="product" src="images/sample1.jpg" alt="product-image" width="500px"></a>
-    <a href="/"><img class="product" src="images/sample1.jpg" alt="product-image" width="500px"></a>
-    <a href="/"><img class="product" src="images/sample1.jpg" alt="product-image" width="500px"></a>
+
+  <section class="spend">
+    <h2>How to spend</h2>
+    <h3>in the store/////</h3>
+    <p><span class="mgr-150">for</span>Togertherness with friends</p>
+    <p><span class="mgr-150">for</span>Part of work style</p>
+    <p><span class="mgr-150">for</span>Study boddy</p>
+    <p><span class="mgr-150">for</span>spanYou who like photogaphy</p>
+    <p><span class="mgr-150">for</span>On a date with a lover</p>
+    <p><span class="mgr-150">for</span>When you have a problem</p>
+    <p><span class="mgr-150">for</span>A place for families to relax</p>
+    <img src="images/enjoy.jpg" class="spend-image">
   </section>
+
+  <section class="topics-container">
+    <img src="images/topic-1.jpg">
+    <div class="title-one"><a href="#">Reservation</a></div>
+    <img src="images/topic-2.jpg">
+    <div class="title-two"><a href="#">Contact</a></div>
+    <img src="images/topic-3.jpg">
+    <div class="title-three"><a href="#">Job</a></div>
+    <img src="images/topic-4.jpg">
+    <div class="title-four"><a href="#">Map</a></div>
+  </section>
+
+
+
+
+
+
+{{-- 
+  <footer>
+    <h1>&</h1>
+    <img src="images/ttokubetu.webp">
+    <div class="footer-list">
+        <ul>
+           <li><a href="#">about<a></li>
+            <li><a href="#">menu</a></li>
+            <li><a href="#">access</a></li> 
+        </ul>
+    </div>
+    <div class="adress">
+    <h2>adress</h2>
+    <p>京都府京都市復興寺３−３ー１</p>
+    </div>
+    <div class="call">
+      <h2>TEL</h2>
+      <p>06-1515-1717</p>  
+    </div>
+   </footer> --}}
+  
+
+
+
 @endsection  
