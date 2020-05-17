@@ -3,7 +3,7 @@
   <header>
     <a href="/">logo</a>
     <a href="/main/about">about</a>
-    <a href="/main/lesson_menu">lessons</a>
+    <a href="/main/lesson_menu">menu</a>
     <a href="/main/access">access</a>
     @if(Auth::check())
     <a href="/member_limited">videos</a>
@@ -20,7 +20,7 @@
   <footer>
     <a href="/">index</a>
     <a href="/main/about">about</a>
-    <a href="/main/lesson_menu">lessons</a>
+    <a href="/main/lesson_menu">menu</a>
     <a href="/main/access">access</a>
     address
     phone-number

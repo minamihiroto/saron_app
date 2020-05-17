@@ -7,18 +7,20 @@ ul{
   list-style: none;
 }
 
+/* INDEX */
+
 /* top */
 
 .sub-title{
   font-size: 64px;
   font-family: sans-serif;
-  margin-top: 230px;
+  margin-top: 150px;
   margin-left: 110px;
 }
   
 .sub-text{
   font-size: 15px;
-  margin-left: 324px;
+  margin-left: 320px;
   margin-top: 15px;
 }
   
@@ -26,7 +28,7 @@ ul{
   display: inline-block;
   height: 900px;
   width: 1440px;
-  margin-top: 400px; 
+  margin-top: 370px; 
   background:no-repeat url(/images/top-image.webp);
   background-size: cover;
   text-align: center;
@@ -247,4 +249,154 @@ ul{
 
 .topics-container a:hover{
   background-color: rgba(255, 255, 255, 0.274);
+}
+
+/* ABOUT */
+
+/* MENU */
+
+.menu{
+  color: #ffffff;
+  font-size: 25px;
+}
+
+/* drink-box */
+
+.drink-box{
+  height: 2030px;
+  width: 1440px;
+  background-image: url(/images/background-wood.png);
+  background-size: cover;
+  text-align: center;
+}
+
+.drink-box h1{
+  word-spacing: 20px;
+  padding-top: 150px;
+}
+
+.drink-box p{
+  padding-top: 150px;
+}
+
+.mgr-430{
+  margin-right: 430px;
+}
+
+.mgr-421{
+  margin-right: 421px;
+}
+
+.mgr-410{
+  margin-right: 410px;
+}
+
+.mgr-335{
+  margin-right: 335px;
+}
+
+.mgr-345{
+  margin-right: 345px;
+}
+
+.mgr-370{
+  margin-right: 370px;
+}
+
+.mgr-459{
+  margin-right: 459px;
+}
+
+.mgr-295{
+  margin-right: 295px;
+}
+
+.mgr-280{
+  margin-right: 280px;
+}
+
+/* food-box */
+
+.food-box{
+  height: 1246px;
+  width: 1440px;
+  background-image: url(/images/background-beans.png);
+  background-size: cover;
+}
+
+.food-box h1{
+  text-align: center;
+  padding-top: 150px;
+}
+
+.mgr-500{
+  margin-right: 500px;
+}
+.mgr-438{
+  margin-right: 438px;
+}
+.mgr-480{
+  margin-right: 480px;
+}
+.mgr-464{
+  margin-right: 464px;
+}
+.mgr-478{
+  margin-right: 478px;
+}
+
+.food-box p{
+  text-align: center;
+  padding-top: 100px;
+}
+
+/* tea-box */
+
+.tea-box{
+  width: 1440px;
+  height: 1040px;
+  background-image: url(/images/background-tea.png);
+  background-size: cover;
+}
+
+.tea-box h1{
+  text-align: center;
+  padding-top: 120px;
+}
+
+.tea-text{
+  text-align: center;
+  padding-top: 120px;
+  width: 900px;
+  margin: auto;
+}
+
+.tea-box p{
+  text-align: center;
+  padding-top: 100px;
+}
+
+.mgr-350{
+  margin-right: 350px;
+  
+}
+
+.mgr-355{
+  margin-right: 355px;
+}
+
+.mgr-380{
+  margin-right: 380px;
+}
+
+/* ACCESS */
+
+.access{
+  text-align: center;
+}
+
+/* shop-overview */
+
+.shop-overview{
+  margin-top: 100px;
 }
