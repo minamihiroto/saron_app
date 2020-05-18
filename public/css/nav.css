@@ -1,0 +1,48 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+a:hover{
+  opacity: 60%;
+}
+
+header{
+  background-color: white;
+  position: fixed;
+  padding: 0px 0px 25px 100px;
+  width: 100%;
+  top: 0px;
+  z-index: 5;
+}
+
+ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+.header-logo{
+  position: absolute;
+  font-size: 40px; 
+  top: 5px;
+  left: 40px;
+}
+
+header ul {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+}
+
+.header-user {
+  position: absolute;
+  left: 1250px;
+  top: 25px;
+  text-decoration: none;
+  color: black;
+}
+
+.login-nav{
+  display: flex;
+}

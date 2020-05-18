@@ -1,5 +1,7 @@
 @extends('layouts.main')
 @section('title','News')
+@section('css','style.css')
+@section('css2','nav.css')
 @section('content')
   {{ $item->news_title }}
   {{ $item->news_message }}

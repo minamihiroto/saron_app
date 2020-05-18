@@ -1,5 +1,7 @@
 @extends('layouts.main')
 @section('title','About')
+@section('css','style.css')
+@section('css2','nav.css')
 @section('content')
   <section class="introduction">
     <img class="personimage" src="/images/sample4.jpg" alt="person-image" width="700px"> 

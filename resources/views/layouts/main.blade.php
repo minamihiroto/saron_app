@@ -1,17 +1,17 @@
 <x-head />
 <body>
   <header>
-    <a href="/">logo</a>
-    <a href="/main/about">about</a>
-    <a href="/main/lesson_menu">menu</a>
-    <a href="/main/access">access</a>
+    <ul>
+      <li><a class="header-logo" href="/">&</a></li>
+      <li><a href="/main/about">about</a></li>
+      <li><a href="/main/lesson_menu">menu</a></li>
+      <li><a href="/main/access">access</a></li>
     @if(Auth::check())
-    <a href="/member_limited">videos</a>
-    <a href="/member_limited/profile">{{$user->name}}</a>
-    <a href="/admin/share">share</a>
-    <a href="/admin/news_share">announce</a>
+      <li><a href="/member_limited">videos</a></li>
+      <li><a class="header-user" href="/member_limited/profile">{{$user->name}}</a></li>
+    </ul>
     @else
-    <a href="/login">login</a>
+    <a class="header-user" href="/login">login</a>
     @endif
   </header>
   <main>

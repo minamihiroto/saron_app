@@ -1,5 +1,6 @@
 @extends('layouts.main')
 @section('css','style.css')
+@section('css2','nav.css')
 @section('title','Top')
 @section('content')
 
