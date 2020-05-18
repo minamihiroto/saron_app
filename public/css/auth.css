@@ -1,7 +1,9 @@
+/* auth-layout */
+
 .navbar-nav{
   list-style: none;
   text-align: right;
-  width: 1000px;
+  width: 800px;
 }
 
 a{
@@ -16,24 +18,54 @@ a:hover{
   text-align: center;
 }
 
+/* login register */
+
 .card-header{
   font-size: 64px;
   margin: 0px auto 40px;
 }
 
-.row{
-  margin: 20px;
+.form-group{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.col-md-6{
-  display: inline;
-  margin-left: 50px;
+.form-group label{
+  margin-left: 570px;
+}
+
+.form-control{
+  margin-right: 570px;
 }
 
 .btn{
-  margin-bottom: 40px;
+  text-align: center;
+  margin: 20px;
+  padding: 10px 90px;
+  font-size: 30px;
+  border: 5px solid;
+}
+
+.btn:hover{
+  background-color: rgba(0, 0, 0, 0.151);
 }
 
 .forgot{
   display: block;
+  width: 200px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.invalid-feedback{
+  display: block;
+  width: 500px;
+  color: red;
+  background-color: rgba(255, 0, 0, 0.233);
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
 }
