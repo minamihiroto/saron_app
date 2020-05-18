@@ -8,11 +8,14 @@ use App\Http\Requests\AdminnewsRequest;
 use App\Video;
 use App\News;
 use Validator;
+use Illuminate\Support\Facades\Auth;
 
 class AdminController extends Controller
 {
     public function share(){
-        return view('admin.share');
+        $user = Auth::user();
+        $param = ['user'=>$user];
+        return view('admin.share',$param);
     }
 
     
@@ -37,7 +40,9 @@ class AdminController extends Controller
 
     public function news_share()
     {
-        return view('admin.news_share');
+        $user = Auth::user();
+        $param = ['user'=>$user];
+        return view('admin.news_share',$param);
     }
 
     public function announcement(AdminnewsRequest $request)
