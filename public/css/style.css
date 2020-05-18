@@ -263,130 +263,57 @@ ul{
 /* drink-box */
 
 .drink-box{
-  height: 2030px;
-  width: 1440px;
   background-image: url(/images/background-wood.png);
   background-size: cover;
-  text-align: center;
-}
-
-.drink-box h1{
-  word-spacing: 20px;
-  padding-top: 150px;
-}
-
-.drink-box p{
-  padding-top: 150px;
-}
-
-.mgr-430{
-  margin-right: 430px;
-}
-
-.mgr-421{
-  margin-right: 421px;
-}
-
-.mgr-410{
-  margin-right: 410px;
-}
-
-.mgr-335{
-  margin-right: 335px;
-}
-
-.mgr-345{
-  margin-right: 345px;
-}
-
-.mgr-370{
-  margin-right: 370px;
-}
-
-.mgr-459{
-  margin-right: 459px;
-}
-
-.mgr-295{
-  margin-right: 295px;
-}
-
-.mgr-280{
-  margin-right: 280px;
 }
 
 /* food-box */
 
 .food-box{
-  height: 1246px;
-  width: 1440px;
   background-image: url(/images/background-beans.png);
   background-size: cover;
-}
-
-.food-box h1{
-  text-align: center;
-  padding-top: 150px;
-}
-
-.mgr-500{
-  margin-right: 500px;
-}
-.mgr-438{
-  margin-right: 438px;
-}
-.mgr-480{
-  margin-right: 480px;
-}
-.mgr-464{
-  margin-right: 464px;
-}
-.mgr-478{
-  margin-right: 478px;
-}
-
-.food-box p{
-  text-align: center;
-  padding-top: 100px;
 }
 
 /* tea-box */
 
 .tea-box{
-  width: 1440px;
-  height: 1040px;
   background-image: url(/images/background-tea.png);
   background-size: cover;
 }
 
-.tea-box h1{
-  text-align: center;
-  padding-top: 120px;
-}
-
 .tea-text{
   text-align: center;
-  padding-top: 120px;
-  width: 900px;
-  margin: auto;
+  width: 1000px;
+  margin: 100px auto 0px;
 }
 
-.tea-box p{
+/* box */
+
+.box{
+  padding-bottom: 200px;
+}
+
+.box h1{
+  word-spacing: 20px;
+  padding-top: 150px;
   text-align: center;
+}
+
+.box p{
   padding-top: 100px;
 }
 
-.mgr-350{
-  margin-right: 350px;
-  
+.products{
+  display: flex;
+  justify-content: space-between;
 }
 
-.mgr-355{
-  margin-right: 355px;
+.product{
+  margin-left: 320px;
 }
 
-.mgr-380{
-  margin-right: 380px;
+.price{
+  margin-right: 320px;
 }
 
 /* ACCESS */
