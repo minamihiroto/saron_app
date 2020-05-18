@@ -60,13 +60,13 @@
 
   <section class="topics-container">
     <img src="images/topic-1.jpg">
-    <div class="title-one"><a href="#">Reservation</a></div>
+    <div class="title-one"><a href="/main/access#reservation">Reservation</a></div>
     <img src="images/topic-2.jpg">
-    <div class="title-two"><a href="#">Contact</a></div>
+    <div class="title-two"><a href="/main/access#contact">Contact</a></div>
     <img src="images/topic-3.jpg">
-    <div class="title-three"><a href="#">Job</a></div>
+    <div class="title-three"><a href="/main/about#job">Job</a></div>
     <img src="images/topic-4.jpg">
-    <div class="title-four"><a href="#">Map</a></div>
+    <div class="title-four"><a href="/main/access#map">Map</a></div>
   </section>
 
 @endsection  
