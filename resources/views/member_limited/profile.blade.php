@@ -1,19 +1,14 @@
-<x-head />
+@extends('layouts.member')
+@section('css','login-nav.css')
+@section('css2','style.css')
 @section('title','Profile')
-<body>
-  <header>
-    <a href="/">index</a>
-    <a href="/member_limited">videos</a>
-    <a href="/member_limited/profile">{{$user->name}}</a>
-    <a href="/admin/share">share</a>
-    <a href="/admin/news_share">announce</a>
-  </header>
-  
-  {{$user->name}}
-  {{$user->email}}
-  <form method="POST" action="/logout">
+
+<section class="profile">
+  <h1>profile</h1>
+  <div><p class="personal">name</p><p class="profile-name">{{$user->name}}</p></div>
+  <div><p class="personal">mail</p><p class="profile-mail">{{$user->email}}</p></div>
+  <form method="POST" action="/logout" class="logout" >
     {{ csrf_field() }}
     <a href="javascript:void(0)" onclick="this.parentNode.submit()">logout</a>
   </form>
-</body>
-</html>
+</section>

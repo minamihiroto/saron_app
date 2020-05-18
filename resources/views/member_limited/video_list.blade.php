@@ -3,6 +3,7 @@
 @section('css2','style.css')
 @section('title','Videos')
 
+<section class="video-list">
   <h1>videos</h1>
   @if(count($items) > 0)
         @foreach($items as $item)
@@ -20,3 +21,4 @@
     @else
         <div>投稿記事がありません</div>
     @endif
+</section>

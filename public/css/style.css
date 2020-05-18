@@ -14,7 +14,7 @@ ul{
 .sub-title{
   font-size: 64px;
   font-family: sans-serif;
-  margin-top: 150px;
+  margin-top: 300px;
   margin-left: 110px;
 }
   
@@ -322,8 +322,103 @@ ul{
   text-align: center;
 }
 
+.access h1{
+  margin: 50px;
+}
+
+/* reservation */
+.reservation h1{
+  margin-top: 150px;
+}
+
+
+/* contact */
+
+
+
 /* shop-overview */
 
 .shop-overview{
-  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.condition{
+  display: flex;
+  justify-content: space-between;
+}
+
+.condition p{
+  margin-bottom: 30px;
+}
+
+.condition-title{
+  margin-left: 450px;
+}
+
+.condition-text{
+  margin-right: 450px;
+}
+
+/* VIDEOLIST */
+
+.video-list h1{
+  text-align: center;
+  margin-top: 300px;
+  font-size: 64px;
+}
+
+.video{
+  text-align: center;
+  margin-top: 300px;
+}
+
+.video-list p{
+  width: 650px;
+  margin: 50px auto 0px;
+}
+
+.video-list h2{
+  margin-top: 50px;
+  text-align: center;
+}
+
+.delete{
+  text-align: center;
+  margin: auto;
+}
+
+/* PROFILE */
+
+.profile{
+  text-align: center;
+  margin: 150px auto;
+}
+
+.profile h1{
+  font-size: 64px;
+  margin-bottom: 100px;
+}
+
+.profile p{
+  margin-bottom: 50px;
+  font-size: 25px;
+}
+
+.profile div{
+  display: flex;
+  justify-content: space-between;
+}
+
+.personal{
+  margin-left: 500px;
+}
+
+.profile-name,.profile-mail{
+  margin-right: 500px;
+}
+
+.logout{
+  font-size: 40px;
+  opacity: 70%;
+  margin:100px 0px 0px 350px;
 }
