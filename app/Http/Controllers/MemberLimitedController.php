@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Video;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Storage;
 
 class MemberLimitedController extends Controller
 {
@@ -12,7 +13,9 @@ class MemberLimitedController extends Controller
         $user = Auth::user();
         $param = ['user'=>$user];
         $items = Video::all();
-        return view('member_limited.video_list',['items'=>$items],$param);
+        $disk = Storage::disk('s3'); 
+        $moviePath = str_replace("%20", "", $disk->url(" "));
+        return view('member_limited.video_list',['items'=>$items],$param)->with(compact('moviePath'));
     }
 
     public function profile(){

@@ -39,3 +39,5 @@ Route::post('admin/news_share','AdminController@announcement')
     ->middleware('auth');
 Route::delete('admin/news_destroy/{post_id}','AdminController@news_destroy')
     ->middleware('auth');
+
+

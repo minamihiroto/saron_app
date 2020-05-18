@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Http\Requests\AdminRequest;
 use App\Http\Requests\AdminnewsRequest;
+use Illuminate\Support\Facades\Storage;
 use App\Video;
 use App\News;
 use Validator;
@@ -25,10 +26,16 @@ class AdminController extends Controller
         $form = $request->all();
 
         unset($form['_token']);
-        $post->video_file = $request->video_file;
+        //$post->video_file = $request->video_file;
+        $post->video_file = $request->file('video_file')->getClientOriginalName();
         $post->video_title = $request->video_title;
         $post->video_summary = $request->video_summary;
         $post->save();
+
+        $disk = Storage::disk('s3'); 
+
+        $disk->putFileAs("" , $request->file('video_file'), $post->video_file, 'public');
+
         return redirect('member_limited');
     }
 
