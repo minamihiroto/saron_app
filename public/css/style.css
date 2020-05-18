@@ -253,6 +253,65 @@ ul{
 
 /* ABOUT */
 
+/* founding */
+
+.founding h1{
+  font-size: 35px;
+  margin-top: 150px;
+  padding-left: 100px;
+  padding-bottom: 100px;
+}
+
+.under{
+  text-decoration: underline;
+}
+
+.founding img{ 
+  position: relative;
+}
+
+.master-image p{
+  background-color: darkgreen;
+  display: inline-block;
+  padding: 10px 50px;
+  color: white;
+}
+
+.position {
+  position: absolute;
+  top: 500px;
+  left: 850px;
+}
+
+.name {
+  position: absolute;
+  top: 540px;
+  left: 890px;
+}
+
+.position-two {
+  position: absolute;
+  top: 750px;
+  left: 850px;
+}
+
+.name-two{
+  position: absolute;
+  top: 790px;
+  left: 890px;
+}
+
+.story h2{
+  text-align: center;
+  padding-top: 100px;
+}
+
+.story p{
+  padding-top: 50px;
+  width: 50%;
+  padding-left: 350px;
+}
+
 /* MENU */
 
 .menu{
@@ -428,4 +487,19 @@ ul{
 .share{
   text-align: center;
   margin-top: 200px;
+}
+
+/* NEWS */
+
+.news-content{
+  text-align: center;
+}
+
+.news-content h1{
+  margin: 100px;
+}
+
+.news-content p{
+  width: 800px;
+  margin: 100px;
 }
