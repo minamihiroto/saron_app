@@ -17,13 +17,23 @@
   <main>
     @yield('content')
   </main>
+
   <footer>
-    <a href="/">index</a>
-    <a href="/main/about">about</a>
-    <a href="/main/lesson_menu">menu</a>
-    <a href="/main/access">access</a>
-    address
-    phone-number
+    <h1><a href="/">&</a></h1>
+    <img src="/images/footer-image.webp" height="200" width="400">
+    <ul class="footer-list">
+      <li><a href="/main/about">about</a></li>
+      <li><a href="/main/lesson_menu">menu</a></li>
+      <li><a href="/main/access">access</a></li>
+    </ul>
+    <div class="ad">  
+      <h2>adress</h2>
+      <p>京都府京都市復興寺通り３−３ー１</p>
+    </div>
+    <div class="tel">
+      <h2>TEL</h2>
+      <p>06-1515-1717</p>
+    </div>
   </footer>
 </body>
 </html>

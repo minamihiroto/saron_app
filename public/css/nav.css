@@ -3,6 +3,8 @@
   padding: 0px;
 }
 
+/* HEADER */
+
 a:hover{
   opacity: 60%;
 }
@@ -45,4 +47,66 @@ header ul {
 
 .login-nav{
   display: flex;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #f0f0f0;
+  position: relative;
+  height: 400px;
+}
+
+footer h1{
+  position: absolute;
+  top: 50px;
+  left: 240px;
+}
+
+footer h1 a{
+  color: black;
+  font-size: 100px;
+  text-decoration: none;
+}
+
+footer img {
+  position: absolute;
+  top: 200px;
+  left: 30px;
+}
+
+.footer-list {
+  position: absolute;
+  left: 650px;
+}
+
+.footer-list li{
+  padding-top: 60px;
+}
+
+.footer-list li a{
+  color: black;
+  font-size: 25px;
+}
+
+.ad{
+  position: absolute;
+  top: 60px;
+  left: 1000px;
+}
+
+.ad p{
+  letter-spacing: 3px;
+  margin-top: 15px;
+}
+
+.tel{
+  position: absolute;
+  top: 180px;
+  left: 1000px;
+}
+
+.tel p{
+  letter-spacing: 3px;
+  margin-top: 15px;
 }
