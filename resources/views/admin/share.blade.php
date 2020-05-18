@@ -1,12 +1,10 @@
 <x-head />
-<body>
-  <header>
-    <a href="/">index</a>
-    <a href="/member_limited">videos</a>
-    <a href="/admin/share">share</a>
-    <a href="/admin/news_share">announce</a>
-  </header>
-  
+@extends('layouts.member')
+@section('css','login-nav.css')
+@section('css2','style.css')
+@section('title','ShareVideo')
+
+  <section class="share-video share">
     <form action="/admin/share" method="post" enctype="multipart/form-data">
       {{ csrf_field() }}
       <input type="hidden" name="id" value="1">
@@ -27,6 +25,5 @@
           <textarea class="form" name="video_summary" placeholder="メッセージ">{{ old('video_summary') }}</textarea>
       </div>
       <input type="submit" class="create" value="投  稿">
-  </form>
-</body>
-</html>
+    </form>
+  </section>

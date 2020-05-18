@@ -1,13 +1,10 @@
 <x-head />
-<body>
-  <header>
-    <header>
-      <a href="/">index</a>
-      <a href="/member_limited">videos</a>
-      <a href="/admin/share">share</a>
-      <a href="/admin/news_share">announce</a>
-    </header>
-    
+@extends('layouts.member')
+@section('css','login-nav.css')
+@section('css2','style.css')
+@section('title','ShareNews')
+
+  <section class="share-news share">
     <form action="/admin/news_share" method="post" enctype="multipart/form-data">
       {{ csrf_field() }}
       <input type="hidden" name="id" value="1">
@@ -23,6 +20,5 @@
           <textarea class="form" name="news_message" placeholder="メッセージ">{{ old('news_message') }}</textarea>
       </div>
       <input type="submit" class="create" value="投  稿">
-  </form>
-</body>
-</html>
+    </form>
+  </section>
