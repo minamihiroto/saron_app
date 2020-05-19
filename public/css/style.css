@@ -420,14 +420,16 @@ ul{
 
 /* VIDEOLIST */
 
-.video-list h1{
+.video-list{
   text-align: center;
+}
+
+.video-list h1{
   margin-top: 300px;
   font-size: 64px;
 }
 
 .video{
-  text-align: center;
   margin-top: 300px;
 }
 
@@ -438,12 +440,6 @@ ul{
 
 .video-list h2{
   margin-top: 50px;
-  text-align: center;
-}
-
-.delete{
-  text-align: center;
-  margin: auto;
 }
 
 /* PROFILE */
