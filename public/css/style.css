@@ -496,10 +496,22 @@ ul{
 }
 
 .news-content h1{
-  margin: 100px;
+  margin: 200px auto 100px;
 }
 
 .news-content p{
   width: 800px;
-  margin: 100px;
+  margin: 100px auto;
+}
+
+.delete{
+  display: inline-block;
+  margin: 0px 0px 100px 200px;
+  font-size: 20pt;
+  padding: 10px 20px;
+  border-radius: 20%;
+}
+
+.delete:hover{
+  background-color: rgb(228, 228, 228);
 }
