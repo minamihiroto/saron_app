@@ -5,6 +5,7 @@
 @section('content')
 <section class="news-content">
   <h1>{{ $item->news_title }}</h1>
+  <h5>{{$item->created_at}}</h5>
   <p>{!! nl2br($item->news_message) !!}</p>
   <form action="/admin/news_destroy/{{ $item->id }}" method="POST">
     {{ csrf_field() }}

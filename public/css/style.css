@@ -558,6 +558,10 @@ ul{
   margin: 200px auto 20px;
 }
 
+.news-content h5{
+  margin-left: 400px;
+}
+
 .news-content p{
   width: 700px;
   margin: 100px auto;
