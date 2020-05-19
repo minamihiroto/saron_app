@@ -10,7 +10,7 @@
             <div class="alert alert-primary" role="alert">
                 <div class="video"><video src="{{ $moviePath }}{{ $item->video_file }}" width="320" height="240" autoplay controls></video></div>
                 <h2>{{ $item->video_title }}</h1>
-                <p>{{ $item->video_summary }}</p>
+                <p>{!! nl2br($item->video_summary) !!}</p>
                 <form action="/admin/destroy/{{ $item->id }}" method="POST" class="delete">
                   {{ csrf_field() }}
                   <input type="hidden" name="_method" value="DELETE">

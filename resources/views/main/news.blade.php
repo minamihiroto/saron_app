@@ -5,7 +5,7 @@
 @section('content')
 <section class="news-content">
   <h1>{{ $item->news_title }}</h1>
-  <p>{{ $item->news_message }}</p>
+  <p>{!! nl2br($item->news_message) !!}</p>
   <form action="/admin/news_destroy/{{ $item->id }}" method="POST">
     {{ csrf_field() }}
     <input type="hidden" name="_method" value="DELETE">
