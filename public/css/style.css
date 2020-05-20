@@ -176,7 +176,7 @@ ul{
 /* spend */
 
 .spend{
-  background-image: url(/images/spend.jpg);
+  background: url(/images/spend.jpg) no-repeat;
   background-size: contain;
   margin: 200px 0px 400px;
   color: #ffffff;
@@ -361,14 +361,14 @@ ul{
 }
 
 .inside-image {
-  display:flex;
+  display: flex;
   flex-wrap: wrap; 
   margin-top: 100px;
   padding-left: 120px;
 }
 
 .inside img{
-  width: 30%; 
+  width: 30%;
 }
 
 .inside-details {
@@ -376,7 +376,6 @@ ul{
   margin: 150px auto 100px;
   line-height: 30px;
 }
-
 
 /* MENU */
 
