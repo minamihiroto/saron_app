@@ -448,7 +448,9 @@ ul{
 }
 
 .access h1{
-  margin: 50px;
+  text-align: center;
+  font-size: 35px;
+  margin: 100px;
 }
 
 /* reservation */
@@ -457,6 +459,42 @@ ul{
 }
 
 /* contact */
+
+.contact-main {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 340px;
+}
+.contact-main p{
+  width: 34%;
+  margin-top: 50px;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.contact-main p input{
+  background-color: #f0f0f0;
+  width: 300px;
+}
+.contact-main p textarea{
+  background-color: #f0f0f0;
+  width: 300px;
+  height: 200px;
+}
+.submit-button{
+  text-align: center;
+  padding-top: 50px;
+}
+.button{
+  display: inline-block;
+  font-size: 20px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  padding: 8px 10px;
+}
+.button:hover{
+  box-shadow: none;
+  color: grey;
+}
 
 /* shop-overview */
 

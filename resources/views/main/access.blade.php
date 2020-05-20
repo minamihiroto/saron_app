@@ -12,7 +12,7 @@
   </section>
 
   <section class="contact" id="contact">
-    <h2 class="contact-title">Contact</h2>
+    <h1 class="contact-title">Contact</h1>
     <div class="contact-main">
       <p>name</p>
       <p><input type="text"></p>
@@ -23,7 +23,7 @@
       <p>message</p>
       <p><textarea></textarea></p>
     </div>  
-      <p class="submit-button"><input type="submit" value="submit"></p> 
+    <p class="submit-button"><input type="submit" value="submit" class="button"></p>
 
   </section>
 
