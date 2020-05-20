@@ -365,6 +365,7 @@ ul{
   flex-wrap: wrap; 
   margin-top: 100px;
   padding-left: 120px;
+  align-items: flex-start;
 }
 
 .inside img{
