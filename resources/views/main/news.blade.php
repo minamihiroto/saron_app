@@ -7,10 +7,13 @@
   <h1>{{ $item->news_title }}</h1>
   <h5>{{$item->created_at}}</h5>
   <p>{!! nl2br($item->news_message) !!}</p>
-  <form action="/admin/news_destroy/{{ $item->id }}" method="POST">
-    {{ csrf_field() }}
-    <input type="hidden" name="_method" value="DELETE">
-    <input type="submit" class="delete delete-news" value="削除">
-  </form>
+  {{-- adminだけが使用できるようにしたい。今は表示させてないだけなので要編集 --}}
+  @if(Auth::id()===2)
+    <form action="/admin/news_destroy/{{ $item->id }}" method="POST">
+      {{ csrf_field() }}
+      <input type="hidden" name="_method" value="DELETE">
+      <input type="submit" class="delete delete-news" value="削除">
+    </form>
+  @endif
 </section>
   @endsection 

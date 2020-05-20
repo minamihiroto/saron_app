@@ -11,11 +11,14 @@
                 <div class="video"><video src="{{ $moviePath }}{{ $item->video_file }}" width="700" autoplay controls></video></div>
                 <h2>{{ $item->video_title }}</h1>
                 <p>{!! nl2br($item->video_summary) !!}</p>
-                <form action="/admin/destroy/{{ $item->id }}" method="POST">
-                  {{ csrf_field() }}
-                  <input type="hidden" name="_method" value="DELETE">
-                  <input type="submit" value="削除" class="delete">
-                </form>
+                {{-- adminだけが使用できるようにしたい。今は表示させてないだけなので要編集 --}}
+                @if(Auth::id()===2)
+                    <form action="/admin/destroy/{{ $item->id }}" method="POST">
+                        {{ csrf_field() }}
+                        <input type="hidden" name="_method" value="DELETE">
+                        <input type="submit" value="削除" class="delete">
+                    </form>
+                @endif
             </div>
         @endforeach
     @else
