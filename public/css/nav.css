@@ -26,21 +26,21 @@ ul li a{
 .header-logo{
   position: absolute;
   font-size: 40px; 
-  top: 5px;
-  left: 40px;
+  top: 15%;
+  left: 3%;
 }
 
 header ul {
   width: 30%;
   display: flex;
   justify-content: space-between;
-  padding-top: 25px;
+  padding-top: 2%;
 }
 
 .header-user {
   position: absolute;
-  left: 1250px;
-  top: 25px;
+  left: 80%;
+  top: 40%;
   text-decoration: none;
   color: black;
 }
