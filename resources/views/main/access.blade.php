@@ -12,13 +12,19 @@
   </section>
 
   <section class="contact" id="contact">
-    <h1>contact</h1>
-    <form action="/main/access">
-      <input type="text">
-      <input type="text">
-      <textarea cols="30" rows="10"></textarea>
-      <input type="submit">
-    </form>
+    <h2 class="contact-title">Contact</h2>
+    <div class="contact-main">
+      <p>name</p>
+      <p><input type="text"></p>
+      <p>mail</p>
+      <p><input type="text"></p>
+      <p>phone-number</p>
+      <p><input></p>
+      <p>message</p>
+      <p><textarea></textarea></p>
+    </div>  
+      <p class="submit-button"><input type="submit" value="submit"></p> 
+
   </section>
 
   <section class="shop-overview">
