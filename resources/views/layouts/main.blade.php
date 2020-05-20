@@ -20,7 +20,7 @@
 
   <footer>
     <h1><a href="/">&</a></h1>
-    <img src="/images/footer-image.webp" height="200" width="400">
+    <img src="/images/footer-image.png" height="200" width="400">
     <ul class="footer-list">
       <li><a href="/main/about">about</a></li>
       <li><a href="/main/lesson_menu">menu</a></li>
