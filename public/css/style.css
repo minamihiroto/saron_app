@@ -464,25 +464,34 @@ ul{
   flex-wrap: wrap;
   padding-left: 340px;
 }
+
 .contact-main p{
   width: 34%;
   margin-top: 50px;
   font-size: 30px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
 .contact-main p input{
   background-color: #f0f0f0;
   width: 300px;
+  height: 23px;
+  font-size: 20px;
 }
+
 .contact-main p textarea{
   background-color: #f0f0f0;
   width: 300px;
   height: 200px;
+  text-align: left;
+  font-size: 20px;
 }
+
 .submit-button{
   text-align: center;
   padding-top: 50px;
 }
+
 .button{
   display: inline-block;
   font-size: 20px;
@@ -490,6 +499,7 @@ ul{
   cursor: pointer;
   padding: 8px 10px;
 }
+
 .button:hover{
   box-shadow: none;
   color: grey;
@@ -522,10 +532,10 @@ ul{
 
 .video-list{
   text-align: center;
+  margin: 80px;
 }
 
 .video-list h1{
-  margin-top: 100px;
   font-size: 64px;
 }
 
@@ -546,7 +556,7 @@ ul{
 
 .profile{
   text-align: center;
-  margin: 150px auto;
+  margin: 80px auto;
 }
 
 .profile h1{
@@ -582,7 +592,21 @@ ul{
 
 .share{
   text-align: center;
-  margin-top: 200px;
+  margin-top: 80px;
+}
+
+.share-title{
+  margin-bottom: 100px;
+}
+
+.video-file{
+  font-size: 20px;
+  margin: 10px auto;
+  width: 300px;
+}
+
+.create{
+  margin: 50px auto;
 }
 
 /* NEWS */
@@ -604,3 +628,4 @@ ul{
   margin: 100px auto;
   line-height: 35px;
 }
+
