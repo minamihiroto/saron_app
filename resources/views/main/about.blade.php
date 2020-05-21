@@ -6,11 +6,13 @@
   <section class="founding">
     <div class="master-image">
       <h1><span class="under">Our story</span></h1>
-      <img src ="/images/master.png" height="auto" width="950px">
-      <p class="position">Master</p>
-      <p class="name">Kei Shindo</p>
-      <p class="position-two">Owner</p>
-      <p class="name-two">Shiba Takuma</p>  
+      <img src ="/images/master.png">
+      {{-- <div class="name-tag">
+        <p class="position">Master</p>
+        <p class="name">Kei Shindo</p>
+        <p class="position-two">Owner</p>
+        <p class="name-two">Shiba Takuma</p>
+      </div> --}}
     </div>
     <div class="story">
       <h2>History</h2>
@@ -52,7 +54,7 @@
     </p>
     <h2>Would you like to work with us?</h2>  
     <h3>私たちと一緒に働きませんか？</h3>
-    <img src="/images/joy-image.png" height="250" width="450">
+    <img src="/images/joy-image.png" height="auto" width="30%">
     <p class="example">アンドコーヒーのスタッフは業界の中でも最も親切で働き者で有能です。
       コーヒー専門家、アーティスト、ライター、焼き菓子職人、デザイナー
       、そしてドリーマーたちの集まりです。<br>

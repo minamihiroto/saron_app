@@ -268,27 +268,31 @@ ul{
 /* founding */
 
 .founding h1{
-  margin-top: 100px;
-  margin-top: 150px;
-  padding-bottom: 100px;
+  margin-top: 10%;
+  padding-bottom: 6%;
 }
 
 .under{
   text-decoration: underline;
   font-size: 35px;
-  padding-left: 100px;
+  padding-left: 5%;
 }
 
 .founding img{ 
   position: relative;
+  width: 65%;
 }
 
 .master-image p{
   background-color: darkgreen;
   display: inline-block;
-  padding: 10px 50px;
+  padding: 1% 1.5%;
   color: white;
 }
+
+/* .name-tag{
+
+} */
 
 .position {
   position: absolute;
@@ -320,9 +324,9 @@ ul{
 }
 
 .story p{
+  margin: 0 auto;
   padding-top: 50px;
   width: 60%;
-  padding-left: 300px;
   line-height: 42px;
 }
 
@@ -334,6 +338,8 @@ ul{
 }
 .overview {
   text-align: center;
+  width: 90%;
+  margin: 0 auto;
 }
 .membership h2 {
   text-align: center;
@@ -341,10 +347,10 @@ ul{
 }
 .membership h3{
   padding-top: 50px;
-  padding-left: 300px;
+  padding-left: 20%;
 }
 .membership img{
-  padding-left: 700px;
+  padding-left: 50%;
 }
 .example {
   margin: 0 auto;
@@ -364,12 +370,12 @@ ul{
   display: flex;
   flex-wrap: wrap; 
   margin-top: 100px;
-  padding-left: 120px;
   align-items: flex-start;
+  margin: 5% 10%;
 }
 
 .inside img{
-  width: 30%;
+  width: 33.3%;
 }
 
 .inside-details {
@@ -630,6 +636,11 @@ ul{
 }
 
 @media(max-width:770px){
+  
+  .membership img{
+    width: 25%;
+  }
+
   .product{
     margin-left: 10%;
   }
@@ -637,9 +648,24 @@ ul{
   .price{
     margin-right: 10%;
   }
+
 }
 
 @media(max-width:420px){
+
+  .founding img{
+    width: 100%;
+  }
+
+  .story p{
+    line-height: 33px;
+    width: 80%;
+  }
+
+  .membership img{
+    width: 50%;
+    padding-left: 25%;
+  }
 
   .menu{
     font-size: 15px;
