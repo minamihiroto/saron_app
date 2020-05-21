@@ -6,13 +6,7 @@
   <section class="founding">
     <div class="master-image">
       <h1><span class="under">Our story</span></h1>
-      <img src ="/images/master.png">
-      {{-- <div class="name-tag">
-        <p class="position">Master</p>
-        <p class="name">Kei Shindo</p>
-        <p class="position-two">Owner</p>
-        <p class="name-two">Shiba Takuma</p>
-      </div> --}}
+      <img class="about-img" src="/images/master-image-nametag.png" alt="image">
     </div>
     <div class="story">
       <h2>History</h2>

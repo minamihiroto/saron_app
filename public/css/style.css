@@ -278,21 +278,10 @@ ul{
   padding-left: 5%;
 }
 
-.founding img{ 
-  position: relative;
-  width: 65%;
+.about-img{
+  width: 100%;
+  box-shadow: none;
 }
-
-.master-image p{
-  background-color: darkgreen;
-  display: inline-block;
-  padding: 1% 1.5%;
-  color: white;
-}
-
-/* .name-tag{
-
-} */
 
 .position {
   position: absolute;
