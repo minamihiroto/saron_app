@@ -26,23 +26,24 @@ ul{
 .sub-title{
   font-size: 64px;
   font-family: sans-serif;
-  margin-top: 300px;
-  margin-left: 110px;
+  margin-top: 30%;
+  margin-left: 15%;
 }
   
 .sub-text{
   font-size: 15px;
-  margin-left: 320px;
-  margin-top: 15px;
+  margin-left: 33%;
+  margin-top: 1%;
 }
   
 .top-img{
   display: inline-block;
   height: 900px;
-  width: 1440px;
-  margin-top: 370px; 
+  width: 100%;
+  margin-top: 20%; 
   background:no-repeat url(/images/top-image.png);
   background-size: cover;
+  background-position: center;
   text-align: center;
   color: rgb(255, 255, 255);
 }
@@ -61,10 +62,10 @@ ul{
 /* news */
 
 .news{
-  width: 1000px;
+  width: 75%;
   background-color: #f0f0f0;
   margin: 200px auto 200px;
-  padding: 20px;
+  padding: 2%;
   text-align: center;
 }
 
@@ -80,7 +81,13 @@ ul{
   color: black;
 }
 
-/* introduce */
+/* 画像埋め込み */
+
+.spend-image img{
+  width: 100%;
+}
+
+/* introduce
 .introduce-beans {
   height: 500px;
   width: 1000px;
@@ -174,7 +181,7 @@ ul{
 }
 
 /* spend */
-
+/* 
 .spend{
   background: url(/images/spend.jpg) no-repeat;
   background-size: contain;
@@ -212,56 +219,11 @@ ul{
   position: absolute;
   top: 320px;
   left: 800px; 
-}
+} */ */
 
 /* button-image */
 
-.topics-container{
-  padding-left: 120px;
-  padding-bottom: 250px;
-  display: flex;
-  flex-wrap: wrap;
-  position: relative;
-}
 
-.title-one a{
-  position: absolute;
-  top: 370px;
-  left: 350px;
-}
-
-.title-two a{
-  position: absolute;
-  top: 370px;
-  left: 980px;
-}
-
-.title-three a{
-  position: absolute;
-  top: 1070px;
-  left: 380px;
-}
-
-.title-four a{
-  position: absolute;
-  top: 1070px;
-  left: 980px;
-}
-
-.topics-container a{
-  margin: 0;
-  font-size: 25px;
-  border: solid white 5px;
-  padding: 15px 30px;
-  color: #ffffff;
-  text-decoration: none;
-  font-weight: bold;
-  background-color: rgba(22, 22, 22, 0.438);
-}
-
-.topics-container a:hover{
-  background-color: rgba(255, 255, 255, 0.274);
-}
 
 /* ABOUT */
 
@@ -280,7 +242,6 @@ ul{
 
 .about-img{
   width: 100%;
-  box-shadow: none;
 }
 
 .position {

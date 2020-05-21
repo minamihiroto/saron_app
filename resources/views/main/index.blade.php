@@ -25,8 +25,10 @@
       <div>投稿記事がありません</div>
     @endif
   </section>
+
+  <div class="spend-image"><img src="/images/spend.png" alt="spend"></div>
  
-  <section class = "introduce">
+  {{-- <section class = "introduce">
     <div class="introduce-beans">
       <img src="images/beans.png" class="introduce-image">
       <h1 class="introduce-title">Beans</h1>   
@@ -56,16 +58,12 @@
     <p><span class="mgr-150">for</span>When you have a problem</p>
     <p><span class="mgr-150">for</span>A place for families to relax</p>
     <img src="images/enjoy.jpg" class="spend-image">
-  </section>
+  </section> --}}
 
   <section class="topics-container">
-    <img src="images/topic-1.jpg">
     <div class="title-one"><a href="/main/access#reservation">Reservation</a></div>
-    <img src="images/topic-2.jpg">
     <div class="title-two"><a href="/main/access#contact">Contact</a></div>
-    <img src="images/topic-3.jpg">
     <div class="title-three"><a href="/main/about#job">Job</a></div>
-    <img src="images/topic-4.jpg">
     <div class="title-four"><a href="/main/access#map">Map</a></div>
   </section>
 
