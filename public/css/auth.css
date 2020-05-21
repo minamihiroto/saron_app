@@ -3,7 +3,7 @@
 .navbar-nav{
   list-style: none;
   text-align: right;
-  width: 800px;
+  width: 70%;
 }
 
 a{
@@ -28,16 +28,16 @@ a:hover{
 .form-group{
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 .form-group label{
-  margin-left: 570px;
+  margin-left: 35%;
 }
 
 .form-control{
-  margin-right: 570px;
+  margin-right: 35%;
 }
 
 .btn{
@@ -62,10 +62,34 @@ a:hover{
 
 .invalid-feedback{
   display: block;
-  width: 500px;
+  width: 50%;
   color: red;
   background-color: rgba(255, 0, 0, 0.233);
   text-align: center;
   margin-right: auto;
   margin-left: auto;
+}
+
+@media(max-width:770px){
+
+  .form-group label{
+    margin-left: 20%;
+  }
+  
+  .form-control{
+    margin-right: 20%;
+  }
+
+}
+
+@media(max-width:420px){
+
+  .form-group label{
+    margin-left: 10%;
+  }
+  
+  .form-control{
+    margin-right: 10%;
+  }
+
 }
