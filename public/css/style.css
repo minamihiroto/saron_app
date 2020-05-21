@@ -375,7 +375,7 @@ ul{
 }
 
 .inside img{
-  width: 33.3%;
+  width: 33.333333%;
 }
 
 .inside-details {
@@ -468,7 +468,8 @@ ul{
 .contact-main {
   display: flex;
   flex-wrap: wrap;
-  padding-left: 340px;
+  margin: 0 auto;
+  width: 50%;
 }
 
 .contact-main p{
@@ -527,11 +528,11 @@ ul{
 }
 
 .condition-title{
-  margin-left: 450px;
+  margin-left: 30%;
 }
 
 .condition-text{
-  margin-right: 450px;
+  margin-right: 30%;
 }
 
 /* VIDEOLIST */
@@ -635,6 +636,17 @@ ul{
   line-height: 35px;
 }
 
+@media(max-width:1000px){
+  .condition-title{
+    margin-left: 20%;
+  }
+  
+  .condition-text{
+    margin-right: 20%;
+  }
+  
+}
+
 @media(max-width:770px){
   
   .membership img{
@@ -648,6 +660,11 @@ ul{
   .price{
     margin-right: 10%;
   }
+
+  .contact-main {
+    width: 100%;
+  }
+
 
 }
 
@@ -669,6 +686,23 @@ ul{
 
   .menu{
     font-size: 15px;
+  }
+
+  .access h1{
+    margin: 40px auto;
+  }
+
+  .reservation h1{
+    padding-top: 20px;
+  }
+
+  .contact-main {
+    display: block;
+  }
+
+  .contact-main p{
+    width: 100%;
+    margin-top: 10px;
   }
 
 }
