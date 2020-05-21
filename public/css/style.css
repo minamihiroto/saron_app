@@ -408,24 +408,23 @@ ul{
 
 .tea-text{
   text-align: center;
-  width: 1000px;
-  margin: 100px auto 0px;
+  width: 80%;
+  margin: 10% auto 0%;
 }
 
 /* box */
 
 .box{
-  padding-bottom: 200px;
+  padding: 20% 0%;
 }
 
 .box h1{
-  word-spacing: 20px;
-  padding-top: 150px;
+  word-spacing: 15px;
   text-align: center;
 }
 
 .box p{
-  padding-top: 100px;
+  padding-top: 7%;
 }
 
 .products{
@@ -434,11 +433,11 @@ ul{
 }
 
 .product{
-  margin-left: 320px;
+  margin-left: 25%;
 }
 
 .price{
-  margin-right: 320px;
+  margin-right: 25%;
 }
 
 /* ACCESS */
@@ -630,3 +629,20 @@ ul{
   line-height: 35px;
 }
 
+@media(max-width:770px){
+  .product{
+    margin-left: 10%;
+  }
+  
+  .price{
+    margin-right: 10%;
+  }
+}
+
+@media(max-width:420px){
+
+  .menu{
+    font-size: 15px;
+  }
+
+}
