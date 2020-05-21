@@ -712,6 +712,14 @@ ul{
     margin-top: 10px;
   }
 
+  .condition-title{
+    margin-left: 2%;
+  }
+  
+  .condition-text{
+    margin-right: 2%;
+  }
+
   .news-content h1{
     width: 80%;
   }
