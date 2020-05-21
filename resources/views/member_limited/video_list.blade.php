@@ -8,7 +8,7 @@
   @if(count($items) > 0)
         @foreach($items as $item)
             <div class="alert alert-primary" role="alert">
-                <div class="video"><video src="{{ $moviePath }}{{ $item->video_file }}" width="700" controls></video></div>
+                <div class="video"><video src="{{ $moviePath }}{{ $item->video_file }}" controls></video></div>
                 <h2>{{ $item->video_title }}</h1>
                 <p>{!! nl2br($item->video_summary) !!}</p>
                 {{-- adminだけが使用できるようにしたい。今は表示させてないだけなので要編集 --}}

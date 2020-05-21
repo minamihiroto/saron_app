@@ -546,12 +546,13 @@ ul{
   font-size: 64px;
 }
 
-.video{
-  margin-top: 100px;
+video{
+  width: 70%;
+  margin-top: 10%;
 }
 
 .video-list p{
-  width: 650px;
+  width: 80%;
   margin: 50px auto;
 }
 
@@ -669,6 +670,10 @@ ul{
     margin: 150px auto 20px;
   }
 
+  video{
+    width: 85%;
+  }
+
 }
 
 @media(max-width:420px){
@@ -734,6 +739,10 @@ ul{
   
   .profile-name,.profile-mail{
     margin-right: 10%;
+  }
+
+  video{
+    width: 100%;
   }
 
 }
