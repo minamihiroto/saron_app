@@ -627,11 +627,11 @@ ul{
 }
 
 .news-content h5{
-  margin-left: 400px;
+  margin-left: 60%;
 }
 
 .news-content p{
-  width: 700px;
+  width: 80%;
   margin: 100px auto;
   line-height: 35px;
 }
@@ -665,6 +665,9 @@ ul{
     width: 100%;
   }
 
+  .news-content h1{
+    margin: 150px auto 20px;
+  }
 
 }
 
@@ -703,6 +706,14 @@ ul{
   .contact-main p{
     width: 100%;
     margin-top: 10px;
+  }
+
+  .news-content h1{
+    width: 80%;
+  }
+
+  .news-content p{
+    width: 70%;
   }
 
 }
