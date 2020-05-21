@@ -35,6 +35,7 @@ a:hover{
     width: 100%;
     padding: 2% 0%;
     z-index: 5;
+    background-color: white;
   }
 
   header ul{

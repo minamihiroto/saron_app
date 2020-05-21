@@ -607,7 +607,7 @@ ul{
 }
 
 .video-file{
-  font-size: 20px;
+  font-size: 15px;
   margin: 10px auto;
   width: 300px;
 }
@@ -726,6 +726,14 @@ ul{
 
   .news-content p{
     width: 70%;
+  }
+
+  .personal{
+    margin-left: 10%;
+  }
+  
+  .profile-name,.profile-mail{
+    margin-right: 10%;
   }
 
 }
