@@ -62,10 +62,10 @@
   </section> --}}
 
   <section class="topics-container">
-    <a href="#"><img src="images/topics-one.png"></a>
-    <a href="#"><img src="images/topics-two.png"></a>
-    <a href="#"><img src="images/topics-three.png"></a>
-    <a href="#"><img src="images/topics-four.png"></a>
+    <a href="/main/about#job"><img src="images/topics-one.png"></a>
+    <a href="/main/access#map"><img src="images/topics-two.png"></a>
+    <a href="/main/access#reservation"><img src="images/topics-three.png"></a>
+    <a href="/main/access#contact"><img src="images/topics-four.png"></a>
   </section>
 
 @endsection  
