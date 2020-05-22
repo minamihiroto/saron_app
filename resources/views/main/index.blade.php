@@ -27,6 +27,7 @@
   </section>
 
   <div class="spend-image"><img src="/images/spend.png" alt="spend"></div>
+  <div class="spend-image-sp"><img src="/images/spend-420.png" alt="spend-sp"></div>
  
   {{-- <section class = "introduce">
     <div class="introduce-beans">
@@ -61,10 +62,10 @@
   </section> --}}
 
   <section class="topics-container">
-    <div class="title-one"><a href="/main/access#reservation">Reservation</a></div>
-    <div class="title-two"><a href="/main/access#contact">Contact</a></div>
-    <div class="title-three"><a href="/main/about#job">Job</a></div>
-    <div class="title-four"><a href="/main/access#map">Map</a></div>
+    <a href="#"><img src="images/topics-one.png"></a>
+    <a href="#"><img src="images/topics-two.png"></a>
+    <a href="#"><img src="images/topics-three.png"></a>
+    <a href="#"><img src="images/topics-four.png"></a>
   </section>
 
 @endsection  
