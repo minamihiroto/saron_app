@@ -223,7 +223,7 @@ ul{
   position: absolute;
   top: 320px;
   left: 800px; 
-} */ */
+} */
 
 /* button-image */
 
@@ -234,17 +234,13 @@ ul{
   grid-gap: 0.8em;
   border: 1px solid #ddd;
   padding: 0.8em;
-  margin: 0 10% 2em;
-  width: 80%;
-}
-
-.topics-container img{
-  width: 48%;
+  margin: 0 0 2em;
 }
 
 .topics-container img:hover{
   opacity: 0.7;
 }
+
 .topics-container > a{
     background: #ddd;
     overflow: auto;
@@ -628,10 +624,6 @@ video{
 }
 
 @media(max-width:770px){
-
-  .topics-container img{
-    width: 40%;
-  }  
   
   .membership img{
     width: 25%;
