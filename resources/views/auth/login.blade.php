@@ -4,6 +4,8 @@
 
 @section('content')
 
+    <a href="/">&</a>
+
     <div class="card-header">{{ __('login') }}</div>
 
     <section class="card-body">
