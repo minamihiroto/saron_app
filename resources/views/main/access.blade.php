@@ -8,7 +8,7 @@
   <section class="reservation" id="reservation">
     <h1>reservation</h1>
     {{-- Airリザーブ --}}
-    <iframe type="text/html" frameborder="0" width="80%" height="1250px" src="//airrsv.net/andocoffee/calendar/embed/" ></iframe>
+    <iframe type="text/html" frameborder="0" width="60%" height="1000px" src="//airrsv.net/andocoffee/calendar/embed/" ></iframe>
   </section>
 
   <section class="contact" id="contact">
