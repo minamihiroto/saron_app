@@ -10,12 +10,17 @@ use App\Video;
 use App\News;
 use Validator;
 use Illuminate\Support\Facades\Auth;
+use Gate;
 
 class AdminController extends Controller
 {
     public function share(){
-        $user = Auth::user();
-        $param = ['user'=>$user];
+        if(Gate::allows('isAdmin')){
+            $user = Auth::user();
+            $param = ['user'=>$user];
+        }else{
+            dd('アクセスが許可されていないユーザです。');
+        } 
         return view('admin.share',$param);
     }
 
@@ -47,8 +52,12 @@ class AdminController extends Controller
 
     public function news_share()
     {
-        $user = Auth::user();
-        $param = ['user'=>$user];
+        if(Gate::allows('isAdmin')){
+            $user = Auth::user();
+            $param = ['user'=>$user];
+        }else{
+            dd('アクセスが許可されていないユーザです。');
+        }
         return view('admin.news_share',$param);
     }
 
