@@ -37,12 +37,4 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
-    /**
-     * The attributes that are gureded
-     * @var array
-     */
-    protected $guarded = [
-        'admin_flg'
-    ];
- 
 }
